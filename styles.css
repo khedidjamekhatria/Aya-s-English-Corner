@@ -1341,20 +1341,6 @@ img[loading="lazy"] {
     }
 }
 
-/* Dark mode support (optional) */
-@media (prefers-color-scheme: dark) {
-    :root {
-        --bg-white: #1a1a1a;
-        --bg-gray: #2d2d2d;
-        --text-gray: #e0e0e0;
-        --text-light: #b0b0b0;
-    }
-
-    .navbar {
-        background: rgba(26, 26, 26, 0.95);
-        backdrop-filter: blur(10px);
-    }
-}
 
 /* Utility classes for better responsive control */
 .sr-only {
